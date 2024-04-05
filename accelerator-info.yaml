@@ -1,0 +1,19 @@
+id: af013b37-2339-43e1-ba13-b0e37a01ea94
+name: spring-secure-resource-server
+timestamp: 2024-04-05T16:14:49.598693Z
+source: VSCODE
+username: risbergt
+options:
+  projectName: secure-resource-server
+  workloadNamespace: default
+  clusterIssuerName: tap-ingress-selfsigned
+  gatewayName: gateway-postal-codes
+  msgbrokerName: msgbroker-postal-codes
+  enableRateLimiting: false
+  rateLimit:
+    requestLimitMaxRequests: 5
+    requestLimitTimeWindow: 1
+    requestLimitWindowUnits: s
+  appSSOName: appsso-postal-codes
+  appDomain: 35.188.35.143.nip.io
+  includeBuildToolWrapper: true
