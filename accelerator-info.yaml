@@ -1,10 +1,10 @@
-id: af013b37-2339-43e1-ba13-b0e37a01ea94
+id: 9ad71b9d-91ab-4a85-8557-faab1f8b697a
 name: spring-secure-resource-server
-timestamp: 2024-04-05T16:14:49.598693Z
+timestamp: 2024-06-04T19:42:14.675825Z
 source: VSCODE
 username: risbergt
 options:
-  projectName: secure-resource-server
+  projectName: spring-secure-resource-server
   workloadNamespace: default
   clusterIssuerName: tap-ingress-selfsigned
   gatewayName: gateway-postal-codes
